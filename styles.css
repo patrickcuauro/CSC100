@@ -1,3 +1,13 @@
 body {
-  background: orange;
+  background: black;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+table{
+  background-color: rgb(0, 43, 58);
+  border: 2px solid black;
+}
+td, th {
+  border: 1px solid black;
+  padding: 4px;
 }
