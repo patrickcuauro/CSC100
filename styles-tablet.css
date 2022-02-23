@@ -1,0 +1,19 @@
+body {
+  background: white;
+  color: blue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+td, th {
+  border: 1px solid black;
+  padding: 7px;
+}
+tr:nth-child(even) {
+  background-color: aquamarine;
+}
+tr:nth-child(odd) {
+  background-color: beige;
+}
