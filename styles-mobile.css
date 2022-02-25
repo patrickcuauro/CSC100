@@ -9,3 +9,32 @@ table, th, td {
 td, th {
   padding: 4px;
 }
+#form {
+  margin-top: 2%;
+  background-color: #f2f2f2;
+  padding: 2%;
+}
+#form h2 {
+  text-align: center;
+}
+ /* Style rules for form elements */
+fieldset, input, select, textarea {
+margin-bottom: 2%;
+}
+fieldset legend {
+font-weight: bold;
+font-size: 1.25em;
+}
+label {
+  display: block;
+  padding-top: 3%;
+}
+form #submit {
+  margin: 0 auto;
+  border: none;
+  display: block;
+  padding: 2%;
+  background-color: #b3b3b3;
+  font-size: 1em;
+  border-radius: 10px;
+}

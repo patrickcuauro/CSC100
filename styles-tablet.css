@@ -17,3 +17,27 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
   background-color: beige;
 }
+fieldset, input, select, textarea {
+	margin-bottom: 2%;
+	}
+	fieldset legend {
+	font-weight: bold;
+	font-size: 1.25em;
+	}
+	label {
+		display: block;
+		padding-top: 3%;
+	}
+	form #submit {
+		margin: 0 auto;
+		border: none;
+		display: block;
+		padding: 2%;
+		background-color: #b3b3b3;
+		font-size: 1em;
+		border-radius: 10px;
+	}
+	form {
+		width: 70%;
+		margin: 0 auto;
+	}
